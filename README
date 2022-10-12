@@ -1,0 +1,34 @@
+operation modes
+---
+
+16 bit  => real mode
+32 bits => protected mode
+64 bits => 64-bit submode
+
+registers
+---
+
+{A,B,C,D..}X  => 16 bit
+E{A,B,C,D..}X => 32 bit
+R{A,B,C,D..}X => 64 bit
+
+sizes
+---
+
+byte  => 01
+word  => 02
+dword => 04
+qword => 08
+tword => 10
+oword => 16
+yword => 32
+zword => 64
+
+sections
+---
+
+.data => initialized variables
+.text => code
+.bss => uninitialized variables
+.rodata | .rdata => readonly data (e.g: constants)
+
